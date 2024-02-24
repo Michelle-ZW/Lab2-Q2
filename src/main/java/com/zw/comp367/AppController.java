@@ -16,7 +16,7 @@ public class AppController {
 		
 		String message = "";
 		
-		if(hour <= 12 && hour >= 17)
+		if(hour >= 12 && hour <= 17)
 		{
 			message = "Good afternoon, Zhenqiao, Welcome to COMP367";
 		}
