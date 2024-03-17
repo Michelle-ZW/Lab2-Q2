@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                //git 'https://github.com/jglick/simple-maven-project-with-tests.git'
                 checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Michelle-ZW/Lab2-Q2']])
                 
             }
